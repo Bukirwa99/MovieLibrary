@@ -1,11 +1,13 @@
 import React from 'react';
-import {} from  'react-dom'
 import './App.css'
 import './index.css'
 import IMG1 from './images1.jpg'
 import IMG2 from './images4.jpg'
 import  IMG3 from './images5.jpg'
 import IMG4 from './images8.jpg'
+import {Link} from 'react-router-dom';
+import Movie from './movie'
+
 
 function Home(){
   return (
@@ -34,7 +36,7 @@ function Home(){
       </tr>
       <tr>
 
-        <td> <img src ={IMG1} alt="hh"></img></td>
+        <td><Link exact to="/movie" > <img src ={IMG1} alt="hh"></img></Link> </td>
         <td><img src ={IMG2} alt="hh"></img></td>
         <td><img src={IMG3} alt="hh"></img></td>
         <td><img src ={IMG4} alt='hh'></img></td>

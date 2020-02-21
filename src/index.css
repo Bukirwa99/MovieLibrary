@@ -31,6 +31,18 @@ body{
 
 
 }
+.movie{
+  background-color:navy;
+  border:4px;
+  color:maroon;
+  padding:4px 5px;
+  text-align:centre;
+  text-decoration: algeria;
+
+
+
+
+}
 
 .please{
   display:flex;
@@ -39,7 +51,19 @@ body{
 
 }
 
-
+#movie-image{
+  width: 40em;
+  height:20em;
+  margin:auto;
+}
+.container{
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+}
+.details{
+  text-align: center;
+}
 
 
 
