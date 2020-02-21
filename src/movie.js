@@ -1,5 +1,5 @@
 import IMG1 from'./images1.jpg'
-import React from 'react';
+import React from 'react'
 import './App.css'
 import './index.css'
 import {Link} from 'react-router-dom';
@@ -14,7 +14,7 @@ function movie(){
             </nav>
             <img id="movie-image" src={IMG1} alt="hh"></img>
 
-            <div className="details">
+            <div className="detailsher">
                 
                 <h1>this movie was premiered in 2002 </h1>
                 <p>For the years this movie has been rated the gratest in the straliers of 2002
